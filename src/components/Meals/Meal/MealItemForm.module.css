@@ -1,0 +1,25 @@
+.form {
+	text-align: center;
+    
+}
+.form input{
+    font-weight: bold;
+}
+
+.formBtn {
+    padding: 0.3em 1em;
+	margin: 0.2em;
+    border: none;
+    background-color: rgb(255, 153, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+
+.formBtn:hover{
+    
+    background-color: rgb(196, 119, 5);
+}

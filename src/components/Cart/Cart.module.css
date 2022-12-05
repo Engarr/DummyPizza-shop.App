@@ -1,0 +1,34 @@
+.cartItem {
+	color: rgb(255, 153, 0);
+	list-style: none;
+	text-transform: uppercase;
+}
+.cartAmount {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+    padding: 0.5em;
+    font-weight: bold;
+}
+.cartBtns {
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	margin: 1em auto;
+}
+
+.cartBtns button {
+    padding: 1em 2em;
+    
+	
+	border-radius: 10px;
+	border: none;
+	background-color: rgb(255, 153, 0);
+    cursor: pointer;
+}
+.cartBtns button:hover {
+	background-color: rgb(196, 119, 5);
+}
+.closeBtn{
+    margin-right: 1em;
+}
